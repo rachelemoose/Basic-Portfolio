@@ -21,12 +21,13 @@ nav {
 }
 
 a{
-    color: #cccccc
+    color: #cccccc;
 }
 
 body {
     background-image: url(stripes-light.png);
     height: 100%;
+    margin: 0;
 }
 
 h2 {
@@ -63,4 +64,7 @@ p {
     height: 70px;
     bottom: -50px;
     padding: 0 20px;
+    border-top: #4aaaa5 solid 10px;
+    text-align: center;
+    color: white;
 }
