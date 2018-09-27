@@ -1,0 +1,66 @@
+.main-header {
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 10px;
+    padding: 20px;
+    width: auto;
+}
+
+h1 {
+ background: #4aaaa5;
+ color: #ffffff;
+ display: inline;
+ padding: 20px;
+}
+
+nav {
+    float: right;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    color: #cccccc
+}
+
+body {
+    background-image: url(stripes-light.png);
+    height: 100%;
+}
+
+h2 {
+    border-bottom-style: solid;
+    border-bottom-color: #cccc;
+    color: #4aaaa5;
+}
+
+.about-me {
+    width: 960px;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    display: inherit;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #dddddd;
+    margin: 0 auto 150px;
+}
+
+.picture {
+    float: left;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 20px;
+}
+.footer {
+    background-color: #666666;
+    height: 70px;
+    bottom: -50px;
+    padding: 0 20px;
+}
