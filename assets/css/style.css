@@ -24,8 +24,8 @@ a{
     color: #cccccc;
 }
 
-body {
-    background-image: url(stripes-light.png);
+html, body {
+    background-image: url(assets/images/stripes-light.png);
     height: 100%;
     margin: 0;
 }
@@ -67,4 +67,84 @@ p {
     border-top: #4aaaa5 solid 10px;
     text-align: center;
     color: white;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+.formbox {
+    width: 960px;
+    margin: auto;
+}
+
+#contactheader {
+    margin: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.formtext {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+textarea {
+    width: 700px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: initial;
+}
+
+input[type=text] {
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+}
+
+input[type=email] {
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+}
+.submitbutton {
+    background-color: #4aaaa5;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    Font-size: 16px;
+}
+
+.submitbutton:hover{
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#picturesboard {
+    text-align: center;
+}
+
+.picture11 {
+    padding-left: 20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.picture2 {
+    padding-left: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.picture3 {
+    padding-left: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.picture4 {
+    padding-left: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
