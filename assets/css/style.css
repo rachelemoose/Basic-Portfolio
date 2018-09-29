@@ -25,7 +25,7 @@ a{
 }
 
 html, body {
-    background-image: url(assets/images/stripes-light.png);
+    background-image: url(../images/stripes-light.png);
     height: 100%;
     margin: 0;
 }
